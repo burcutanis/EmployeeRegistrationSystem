@@ -1,0 +1,41 @@
+.navbarDropdown {
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-bottom: 10px;
+}
+
+.navbarDropdown2 {
+  margin-left: 20px;
+
+}
+
+.navbarButton {
+  width: 180px;
+}
+
+.navigationBar {
+  border: 1px solid #dee6ff;
+  height: 50px;
+}
+
+.navbarBrand {
+  margin-right: 0;
+}
+
+.dropdownItem {
+  text-align: center;
+}
+
+.nav-auto {
+  margin-right: 500px;
+}
+
+.dropdownButton {
+  text-align: center;
+  width: 100px;
+  margin-left: 20px;
+}
+
+.navbarBoxMargin {
+  margin-left: 50px;
+}

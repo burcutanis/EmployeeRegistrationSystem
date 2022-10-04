@@ -1,0 +1,16 @@
+.navbarDropdown {
+  margin-right: 20px;
+}
+
+.navbarButton {
+  width: 180px;
+}
+
+.navigationBar {
+  border: 1px solid #dee6ff;
+  height: 50px;
+}
+
+.navbarBrand {
+  margin-right: 0;
+}

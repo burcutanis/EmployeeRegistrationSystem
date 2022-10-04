@@ -1,0 +1,200 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300);
+
+
+
+
+table {
+    transition: all 0.2s ease;
+    background: #fff;
+    padding: 20px;
+}
+
+.userDetailTable {
+    position: relative;
+    left: 180px;
+    top: 100px;
+
+}
+
+
+.name {
+    font-size: 30px;
+    border-bottom: 2px solid #888;
+    margin-bottom: 20px;
+}
+
+
+
+.label {
+    width: 200px;
+    font-weight: bold;
+}
+
+.label,
+.phone,
+.mobile,
+.email {
+    display: inline-block;
+}
+
+.details-td {
+    border-right: 1px solid #eee;
+    white-space: nowrap;
+
+    padding: 20px;
+    padding-right: 30px;
+}
+
+.description-td {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+    margin-top: 15px;
+}
+
+.description {
+    outline: 0px solid transparent;
+    border: 0px solid transparent;
+}
+
+.edit {
+    position: relative;
+    left: 10px;
+
+    width: 13px;
+    height: 13px;
+
+    cursor: pointer;
+}
+
+.update {
+    display: none;
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    background: #c2e59c;
+    border: 0;
+    padding: 5px;
+    width: 80px;
+    color: #333;
+    outline: 0px solid transparent;
+    border: 0px solid transparent;
+}
+
+.sidebar {
+    width: 184px;
+    height: 1000px;
+    position: relative;
+    color: white;
+    border: 1px solid #dee6ff;
+}
+
+.sidebar-item {
+    margin-bottom: 5px;
+}
+
+.editForm {
+    position: relative;
+    left: 470px;
+    top: 60px;
+}
+
+.editFormPersonalInfo {
+    position: relative;
+    left: 470px;
+
+
+}
+
+.deleteAppButton {
+    position: relative;
+    left: 635px;
+    top: 500px;
+}
+
+
+
+
+/*profile.js*/
+.our-team {
+    padding: 30px 0 40px;
+    margin-bottom: 30px;
+    background-color: #f7f5ec;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.our-team .picture {
+    display: inline-block;
+    height: 130px;
+    width: 130px;
+    margin-bottom: 50px;
+    z-index: 1;
+    position: relative;
+}
+
+.our-team .picture::before {
+    content: "";
+    width: 100%;
+    height: 0;
+    border-radius: 50%;
+    background-color: #1369ce;
+    position: absolute;
+    bottom: 135%;
+    right: 0;
+    left: 0;
+    opacity: 0.9;
+    transform: scale(3);
+    transition: all 0.3s linear 0s;
+}
+
+.our-team:hover .picture::before {
+    height: 100%;
+}
+
+.our-team .picture::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #1369ce;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.our-team .picture img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 0.9s ease 0s;
+}
+
+.our-team:hover .picture img {
+    box-shadow: 0 0 0 14px #f7f5ec;
+    transform: scale(0.7);
+}
+
+.our-team .title {
+    display: block;
+    font-size: 15px;
+    color: #4e5052;
+    text-transform: capitalize;
+}
+
+.addImageForm {
+    width: 720px;
+    position: relative;
+    bottom: 350px;
+    right: 200px;
+}
+
+.lineHeightAdditional {
+    line-height: 0.001px;
+}

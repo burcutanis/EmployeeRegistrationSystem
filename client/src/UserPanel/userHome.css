@@ -1,0 +1,115 @@
+/* Headings */
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.big-heading {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+    padding: 2% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+    background-color: #FFE6FA;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+
+
+}
+
+/* Navigation Bar */
+
+
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-weight: bold;
+}
+
+
+.nav-link {
+    font-family: "Montserrat-Light";
+}
+
+
+
+
+
+/* Features Section */
+
+#features {
+    position: relative;
+    align-items: center;
+    display: flex;
+    font-size: 15px;
+    /*font-family: "Great Vibes"*/
+    /* font-family: 'Muli', sans-serif;*/
+    font-family: Georgia, serif;
+
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    padding: 4.5%;
+}
+
+.icon {
+    color: #fab9af;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+    background-color: #fab9af;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+
+#press {
+    background-color: #fab9af;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.applyButton {
+    position: relative;
+    left: 25px;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}

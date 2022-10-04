@@ -1,4 +1,5 @@
 # Employee Registration System
+### Summer Internship Project
 The topic of this project is Employee Registration System used in the company's human resources department.
 A full-stack web application that consists of one admin panel and one user panel
 
